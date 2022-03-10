@@ -4,7 +4,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="css/custom.css">
 <title>KISPG 연동 테스트</title>
 </head>
 <body>
