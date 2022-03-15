@@ -8,8 +8,13 @@
 </script>
 </head>
 <body>
-결제 인증 중 입니다.
-<form name="payInit" action="http://54.161.111.121:8080/Pay.jsp"  method="post">
+결제 인증 중 입니다!!
+<script type="text/javascript">
+   \$(document).ready(function(){
+		document.payInit.submit();
+    })</script>
+</script>
+<form name="payInit" action="http://lgretailservice.ml/Pay.jsp"  method="post">
   <input type="hidden" name="payMethod" value="card">
   <input type="hidden" name="goodsNm" value="$goodsNm">
   <input type="hidden" name="ordNo" value="$ordNo">
