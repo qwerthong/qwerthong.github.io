@@ -8,68 +8,39 @@
 </script>
 </head>
 <body>
-<div style="text-align:center;">
-<div id="sampleInput" class="paypop_con" style="padding:20px 15px 35px 15px;display: inline-block;float: none;">
-<p class="square_tit mt0" style="text-align:left;"><strong>결제정보TEST - App Layer</strong></p>
+
 <form name="payInit" action="http://54.161.111.121:8080/Pay.jsp"  method="post">
-	<table class="tbl_sty02">
-		<tr>
-			<td>결제수단</td>
-			<td><input type="text" name="payMethod" value="card"></td>
-		</tr>
-		<tr>
-			<td>상품명</td>
-			<td><input type="text" name="goodsNm" value="$goodsNm"></td>
-		</tr>
-		<tr>
-			<td>주문번호</td>
-			<td><input type="text" name="ordNo" value="$ordNo"></td>
-		</tr>
-		<tr>
-			<td>결제금액</td>
-			<td><input type="text" name="goodsAmt" value="$goodsAmt"></td>
-		</tr>
-		<tr>
-			<td>구매자명</td>
-			<td><input type="text" name="ordNm" value="$ordNm"></td>
-		</tr>
-		<tr>
-			<td>구매자연락처</td>
-			<td><input type="text" name="ordTel" value="$ordTel"></td>
-		</tr>
-		<tr>
-			<td>구매자이메일</td>
-			<td><input type="text" name="ordEmail" value="$ordEmail"></td>
-		</tr>
-	</table>
-	<input type="hidden" name="merchantKey" value="$merchantKey">
-	<input type="hidden" name="returnUrl" value="$returnUrl">
-	<input type="hidden" name="mid" value="$merchantID">
-	<input type="hidden" name="trxCd" value="0">
-	<!-- 옵션 --> 
-	<input type="hidden" name="userIp"	value="0:0:0:0:0:0:0:1">
-		
-	<input type="hidden" name="mbsUsrId" value="user1234">
-	<input type="hidden" name="ordGuardEmail" value="">
-	<input type="hidden" name="rcvrAddr" value="서울특별시">
-	<input type="hidden" name="rcvrPost" value="00100">
-	<input type="hidden" name="mbsIp" value="127.0.0.1">
-	<input type="hidden" name="mbsReserved" value="MallReserved"><!-- 상점 예약필드 -->
-	<input type="hidden" name="rcvrMsg" value="rcvrMsg">
-	
-	<input type="hidden" name="goodsSplAmt" value="0">
-	<input type="hidden" name="goodsVat" value="0">
-	<input type="hidden" name="goodsSvsAmt" value="0">
-	<input type="hidden" name="payReqType" value="1">
-	
-	<input type="hidden" name="model" value="WEB">
-	<input type="hidden" name="charSet" value="UTF-8">
-	<!-- <input type="hidden" name="period" value="별도 제공기간없음"> -->
-	<!-- <input type="hidden" name="billHpFlg" value="0"> -->
-	<!-- <input type="hidden" name="model" value="MOB"> -->
-	<!-- <input type="hidden" name="channel" value="0001"> -->
+  <input type="hidden" name="payMethod" value="card">
+  <input type="hidden" name="goodsNm" value="$goodsNm">
+  <input type="hidden" name="ordNo" value="$ordNo">
+  <input type="hidden" name="goodsAmt" value="$goodsAmt">
+  <input type="hidden" name="ordNm" value="$ordNm">
+  <input type="hidden" name="ordTel" value="$ordTel">
+  <input type="hidden" name="ordEmail" value="$ordEmail"></td>
+  <input type="hidden" name="merchantKey" value="$merchantKey">
+  <input type="hidden" name="returnUrl" value="$returnUrl">
+  <input type="hidden" name="mid" value="$merchantID">
+  <input type="hidden" name="trxCd" value="0">
+
+  <!-- 옵션 --> 
+  <input type="hidden" name="userIp"	value="0:0:0:0:0:0:0:1">	
+  <input type="hidden" name="mbsUsrId" value="user1234">
+  <input type="hidden" name="ordGuardEmail" value="">
+  <input type="hidden" name="rcvrAddr" value="서울특별시">
+  <input type="hidden" name="rcvrPost" value="00100">
+  <input type="hidden" name="mbsIp" value="127.0.0.1">
+  <input type="hidden" name="mbsReserved" value="MallReserved"><!-- 상점 예약필드 -->
+  <input type="hidden" name="rcvrMsg" value="rcvrMsg">
+  <input type="hidden" name="goodsSplAmt" value="0">
+  <input type="hidden" name="goodsVat" value="0">
+  <input type="hidden" name="goodsSvsAmt" value="0">
+  <input type="hidden" name="payReqType" value="1">
+  <input type="hidden" name="model" value="WEB">
+  <input type="hidden" name="charSet" value="UTF-8">
+  <!-- <input type="hidden" name="period" value="별도 제공기간없음"> -->
+  <!-- <input type="hidden" name="billHpFlg" value="0"> -->
+  <!-- <input type="hidden" name="model" value="MOB"> -->
+  <!-- <input type="hidden" name="channel" value="0001"> -->
 </form>	
-	</div>
-</div>
 </body>
 </html>
