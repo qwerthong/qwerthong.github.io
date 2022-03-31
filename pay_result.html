@@ -144,10 +144,10 @@
         document.getElementById("resultMsg").setAttribute("value", `[${response.data.resultCd}] ${response.data.resultMsg}`);
 
         console.log('response.data.resultMsg: ', response.data.resultMsg);
-        location.href='http://localhost:63992/';
-        location.replace(link);
-        window.open(link);
       })
+      location.href='http://localhost:63992/';
+      location.replace(link);
+      window.open(link);
 
       function yyyymmdd(timestamp) {
         let year = timestamp.getFullYear();
