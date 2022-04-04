@@ -53376,7 +53376,7 @@ s=A.akP("Scribble",n,n,n)
 r=A.a8A(n,B.yz,n,new A.a_v(o,b),"Save to Image")
 q=b.S(t.w).f
 p=t.p
-return new A.uO(new A.qy(r,s,new A.Ik(n,n,1/0,56),n),A.akr(A.od(A.vg(B.cL,A.a([new A.uQ(A.b(o.d,"notifier"),!0,n),A.Tq(n,A.MW(A.a([o.Oz(b),B.xN,o.OI(b)],p),B.cT,B.cc,B.dw),n,n,n,16,16,n)],p),B.cD),q.a.b*2,n)),n)},
+return new A.uO(new A.qy(r,s,new A.Ik(n,n,1/0,56),n),A.akr(A.od(A.vg(B.cL,A.a([new A.uQ(A.b(o.d,"notifier"),!0,n),A.Tq(n,A.MW(A.a([o.Oz(b),B.xN,o.OI(b)],p),B.cT,B.cc,B.dw),n,n,n,16,16,n)],p),B.cD),q.a.b,n)),n)},
 oW(a){return this.TY(a)},
 TY(a){var s=0,r=A.a1(t.H),q=this,p,o,n
 var $async$oW=A.a2(function(b,c){if(b===1)return A.Z(c,r)
