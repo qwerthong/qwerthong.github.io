@@ -1,6 +1,6 @@
 {
-    "name": "retail_service_client",
-    "short_name": "retail_service_client",
+    "name": "scribbling",
+    "short_name": "scribbling",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
