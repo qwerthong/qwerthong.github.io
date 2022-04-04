@@ -53379,7 +53379,7 @@ r=A.akP("Scribble",n,n,n)
 q=A.a8A(n,B.yz,n,new A.a_v(o,b),"Save to Image")
 s=s.ghf()
 p=t.p
-return new A.uP(new A.qz(q,r,new A.Il(n,n,1/0,56),n),A.akr(A.od(A.vh(B.cL,A.a([new A.uR(A.b(o.d,"notifier"),!0,n),A.Tq(n,A.MW(A.a([o.Oz(b),B.xN,o.OI(b)],p),B.cT,B.cc,B.dw),n,n,n,16,16,n)],p),B.cD),s.b,n)),n)},
+return new A.uP(new A.qz(q,r,new A.Il(n,n,1/0,56),n),A.akr(A.od(A.vh(B.cL,A.a([new A.uR(A.b(o.d,"notifier"),!0,n),A.Tq(n,A.MW(A.a([o.Oz(b),B.xN,o.OI(b)],p),B.cT,B.cc,B.dw),n,n,n,16,16,n)],p),B.cD),s.b*2,n)),n)},
 oW(a){return this.TY(a)},
 TY(a){var s=0,r=A.a1(t.H),q=this,p,o,n
 var $async$oW=A.a2(function(b,c){if(b===1)return A.Z(c,r)
